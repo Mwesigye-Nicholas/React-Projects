@@ -1,0 +1,39 @@
+.wrapper{
+    display: flex;
+    height: 100vh;;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.wrapper__button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: background-color .5s ease;
+    font-size: 14px;
+}
+.wrapper__button:hover{
+    background-color: hsl(52, 4%, 9%);
+    color: hsl(180, 64%, 83%);
+    font-size: 15px;
+}
+.accordion{
+    width: 500px;
+}
+.item {
+    background-color: hsl(52, 4%, 9%);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.title{
+    color:  hsl(180, 72%, 46%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.content{
+    color: hsl(180, 64%, 83%);
+    height: auto;
+}
