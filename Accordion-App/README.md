@@ -12,5 +12,5 @@ This project is a React-based Accordion application that showcases a collection 
 
 ## Data Structure  
 
-The application utilizes a predefined array of question-answer pairs to render the accordion items. Below is the structure of the data used:  
+The application utilizes a predefined array of question-answer pairs to render the accordion items. Below is the structure of the data used data used is in data file with .js extension 
 
