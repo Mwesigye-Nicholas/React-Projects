@@ -1,0 +1,43 @@
+.image{
+    width: 35vw;
+    height: 50vh;
+     border-radius: 15px;
+     
+}
+
+.imageWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto;
+    flex-direction: column;
+    width: 50vw;
+    height: auto;
+
+    
+}
+.imageWrapper__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imageWrapper__buttons button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 1rem;
+}
+.imageWrapper__buttons button:hover{
+    background-color: #000;
+    color: #fff;
+}
+h2,h3{
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+h3 {
+    font-size: 1rem;
+}
